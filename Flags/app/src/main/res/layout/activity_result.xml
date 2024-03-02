@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ResultActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:layout_marginTop="25dp"
+        android:text="@string/result"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold">
+    </TextView>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:contentDescription="image"
+        android:src="@drawable/adobestock_593912714_preview_removebg_preview__1__removebg_preview"
+        android:id="@+id/iv_trophy">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Congratulations"
+        android:layout_marginTop="16dp"
+        android:text="@string/congratulations"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:text="Username">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_score"
+        android:layout_marginTop="10dp"
+        tools:text="Your score is 9 out of 10"
+        android:textColor="#DFDDDD"
+        android:textSize="20sp"
+        >
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finishButton"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:text="@string/Finish"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>
